@@ -1,5 +1,4 @@
-# Flask-NGINX SSL Challenge
+flask-nginx-self signed ssl
 
-Flask "Hello World" app docker container provisioned using Terraform.
+Flask "Hello World" app docker container.
 
-Provider: Docker
