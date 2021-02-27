@@ -1,7 +1,5 @@
 FROM tiangolo/uwsgi-nginx:python3.8-alpine
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
-
 RUN apk add openssl
 
 RUN mkdir /opt/ssl/
