@@ -5,8 +5,10 @@ resource "docker_image" "flask" {
 resource "docker_container" "flask" {
   image = docker_image.flask.latest
   name  = "bitwala-challenge"
+  restart = "always"
   ports {
     internal = 443
     external = 443
   }
+  
 }
