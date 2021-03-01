@@ -18,7 +18,7 @@ def hello():
     current_app.logger.info("Functional")
     current_app.logger.error("ERROR!!!")
     current_app.logger.warning("WARNING!!!")
-    return "Hello, World!"
+    return "Hello, World! - Bitwala challenge"
 
 if __name__ == "__main__":
     # Only while testing
