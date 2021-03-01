@@ -7,11 +7,8 @@ logging.basicConfig(filename='/var/log/app.log', level=logging.DEBUG, format=f'%
 
 @app.route("/")
 def hello():
-    app.logger.info('Info level log')
-    app.logger.warning('Warning level log')
     return "Hello, World! - Bitwala challenge"
 
 if __name__ == "__main__":
     # Only while testing
-    app.run(host='0.0.0.0', debug=True, port=443
-    )
+    app.run(host='0.0.0.0', debug=True, port=443)
